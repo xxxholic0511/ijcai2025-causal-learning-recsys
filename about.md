@@ -10,6 +10,20 @@ title: About
             
             <div class="card mb-4">
                 <div class="card-body">
+                    <h2 class="card-title">Location & Venue</h2>
+                    <p>
+                        The workshop will be held in Montreal, Canada, as part of the IJCAI 2025 conference. Montreal is a vibrant city known for its rich cultural heritage, world-class universities, and thriving AI research community.
+                    </p>
+                    <div class="location-details">
+                        <p><i class="fas fa-map-marker-alt me-2"></i> Montreal, Canada</p>
+                        <p><i class="fas fa-calendar-alt me-2"></i> August 16th – 22nd, 2025</p>
+                        <p><i class="fas fa-university me-2"></i> Venue details will be announced soon</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-body">
                     <h2 class="card-title">Workshop Objectives</h2>
                     <p>
                         The IJCAI 2025 Workshop on Causal Learning for Recommendation Systems aims to bring together researchers and practitioners from both academia and industry to explore the intersection of causal inference and recommendation systems. Our objectives include:
@@ -69,4 +83,23 @@ title: About
             </div>
         </div>
     </div>
-</div> 
+</div>
+
+<style>
+.location-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--light-gray);
+    border-radius: 10px;
+}
+
+.location-details p {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.location-details i {
+    color: var(--secondary-color);
+    width: 20px;
+}
+</style> 

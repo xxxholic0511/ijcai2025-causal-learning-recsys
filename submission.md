@@ -16,21 +16,21 @@ title: Submission
                             <i class="fas fa-calendar-alt"></i>
                             <div>
                                 <h4>Paper Submission Deadline</h4>
-                                <p>April 15, 2025</p>
+                                <p>May 9, 2025</p>
                             </div>
                         </div>
                         <div class="timeline-date">
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <h4>Notification of Acceptance</h4>
-                                <p>May 15, 2025</p>
+                                <p>June 6, 2025</p>
                             </div>
                         </div>
                         <div class="timeline-date">
                             <i class="fas fa-file-alt"></i>
                             <div>
                                 <h4>Camera-ready Submission</h4>
-                                <p>June 1, 2025</p>
+                                <p>June 20, 2025</p>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ title: Submission
                         <li>Accepted papers will be presented at the workshop</li>
                     </ol>
                     <div class="text-center mt-4">
-                        <a href="#" class="btn btn-primary">Submit Your Paper</a>
+                        <a href="https://easychair.org/conferences/?conf=ijcai2025causalrecsys" class="btn btn-primary">Submit Your Paper</a>
                     </div>
                 </div>
             </div>

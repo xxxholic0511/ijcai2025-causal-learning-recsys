@@ -8,6 +8,18 @@ title: Schedule
         <div class="col-lg-8 mx-auto">
             <h1 class="text-center mb-5">Workshop Schedule</h1>
             
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Workshop Details</h2>
+                    <div class="workshop-details">
+                        <p><i class="fas fa-map-marker-alt me-2"></i> Montreal, Canada</p>
+                        <p><i class="fas fa-calendar-alt me-2"></i> August 16th – 22nd, 2025</p>
+                        <p><i class="fas fa-clock me-2"></i> Full Day Workshop</p>
+                        <p><i class="fas fa-university me-2"></i> Venue details will be announced soon</p>
+                    </div>
+                </div>
+            </div>
+            
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-badge">
@@ -193,5 +205,22 @@ title: Schedule
         width: calc(100% - 80px);
         margin-left: 80px !important;
     }
+}
+
+.workshop-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--light-gray);
+    border-radius: 10px;
+}
+
+.workshop-details p {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.workshop-details i {
+    color: var(--secondary-color);
+    width: 20px;
 }
 </style> 

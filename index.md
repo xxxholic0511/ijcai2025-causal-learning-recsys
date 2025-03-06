@@ -11,7 +11,7 @@ title: Home
             <i class="fas fa-map-marker-alt"></i>
             Montreal, Canada
         </p>
-        <p class="lead">August 2025</p>
+        <p class="lead">August 16th – 22nd, 2025</p>
     </div>
 </div>
 
@@ -39,10 +39,10 @@ title: Home
                 <div class="card-body">
                     <h3 class="card-title">Important Dates</h3>
                     <ul class="list-unstyled">
-                        <li><strong>Paper Submission:</strong> April 15, 2025</li>
-                        <li><strong>Notification:</strong> May 15, 2025</li>
-                        <li><strong>Camera Ready:</strong> June 1, 2025</li>
-                        <li><strong>Workshop Date:</strong> August 2025</li>
+                        <li><strong>Paper Submission:</strong> May 9, 2025</li>
+                        <li><strong>Notification:</strong> June 6, 2025</li>
+                        <li><strong>Camera Ready:</strong> June 20, 2025</li>
+                        <li><strong>Workshop Date:</strong> August 16th – 22nd, 2025</li>
                     </ul>
                 </div>
             </div>
@@ -51,10 +51,10 @@ title: Home
                 <div class="card-body">
                     <h3 class="card-title">Quick Links</h3>
                     <ul class="list-unstyled">
-                        <li><a href="/submission">Submission Guidelines</a></li>
-                        <li><a href="/schedule">Workshop Schedule</a></li>
-                        <li><a href="/speakers">Invited Speakers</a></li>
-                        <li><a href="/organizers">Organizers</a></li>
+                        <li><a href="{{ site.baseurl }}/submission">Submission Guidelines</a></li>
+                        <li><a href="{{ site.baseurl }}/schedule">Workshop Schedule</a></li>
+                        <li><a href="{{ site.baseurl }}/speakers">Invited Speakers</a></li>
+                        <li><a href="{{ site.baseurl }}/organizers">Organizers</a></li>
                     </ul>
                 </div>
             </div>
@@ -70,7 +70,7 @@ title: Home
                 We invite submissions of original research papers that address theoretical and practical aspects of causal learning in recommendation systems. Both full papers and position papers are welcome.
             </p>
             <div class="text-center mt-4">
-                <a href="/submission" class="btn btn-primary">Submission Guidelines</a>
+                <a href="{{ site.baseurl }}/submission" class="btn btn-primary">Submission Guidelines</a>
             </div>
         </div>
     </div>

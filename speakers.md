@@ -16,7 +16,7 @@ title: Speakers
         <div class="col-lg-6 mb-4">
             <div class="speaker-card">
                 <div class="speaker-image">
-                    <img src="/assets/images/speaker1.jpg" alt="Speaker 1" class="img-fluid">
+                    <img src="{{ '/assets/images/speaker1.jpg' | relative_url }}" alt="Speaker 1" class="img-fluid">
                 </div>
                 <div class="speaker-content">
                     <h3>Prof. John Smith</h3>
@@ -38,7 +38,7 @@ title: Speakers
         <div class="col-lg-6 mb-4">
             <div class="speaker-card">
                 <div class="speaker-image">
-                    <img src="/assets/images/speaker2.jpg" alt="Speaker 2" class="img-fluid">
+                    <img src="{{ '/assets/images/speaker2.jpg' | relative_url }}" alt="Speaker 2" class="img-fluid">
                 </div>
                 <div class="speaker-content">
                     <h3>Dr. Sarah Johnson</h3>
@@ -60,7 +60,7 @@ title: Speakers
         <div class="col-lg-4 mb-4">
             <div class="speaker-card panelist">
                 <div class="speaker-image">
-                    <img src="/assets/images/panelist1.jpg" alt="Panelist 1" class="img-fluid">
+                    <img src="{{ '/assets/images/panelist1.jpg' | relative_url }}" alt="Panelist 1" class="img-fluid">
                 </div>
                 <div class="speaker-content">
                     <h3>Dr. Michael Chen</h3>
@@ -77,7 +77,7 @@ title: Speakers
         <div class="col-lg-4 mb-4">
             <div class="speaker-card panelist">
                 <div class="speaker-image">
-                    <img src="/assets/images/panelist2.jpg" alt="Panelist 2" class="img-fluid">
+                    <img src="{{ '/assets/images/panelist2.jpg' | relative_url }}" alt="Panelist 2" class="img-fluid">
                 </div>
                 <div class="speaker-content">
                     <h3>Prof. Emily Brown</h3>
@@ -94,7 +94,7 @@ title: Speakers
         <div class="col-lg-4 mb-4">
             <div class="speaker-card panelist">
                 <div class="speaker-image">
-                    <img src="/assets/images/panelist3.jpg" alt="Panelist 3" class="img-fluid">
+                    <img src="{{ '/assets/images/panelist3.jpg' | relative_url }}" alt="Panelist 3" class="img-fluid">
                 </div>
                 <div class="speaker-content">
                     <h3>Dr. David Wilson</h3>
