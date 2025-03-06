@@ -137,6 +137,7 @@ title: Home
 .hero-section {
     position: relative;
     min-height: 80vh;
+    background-image: url('{{ site.baseurl }}/assets/images/montreal-river-sunset-with-city-lights-urban-buildings.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,7 +154,7 @@ title: Home
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.4));
 }
 
 .hero-content {
@@ -165,7 +166,7 @@ title: Home
 }
 
 .hero-content h1 {
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -173,7 +174,7 @@ title: Home
 }
 
 .hero-content .lead {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     color: #00ffff;
@@ -182,7 +183,7 @@ title: Home
 }
 
 .hero-content p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     color: white;
@@ -190,7 +191,7 @@ title: Home
 
 .hero-content .btn-primary {
     font-size: 1.1rem;
-    padding: 1rem 2.5rem;
+    padding: 0.8rem 2rem;
     border-radius: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -209,15 +210,15 @@ title: Home
 
 @media (max-width: 768px) {
     .hero-content h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     .hero-content .lead {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .hero-content p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
