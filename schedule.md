@@ -5,118 +5,89 @@ title: Schedule
 
 <div class="container">
     <div class="row">
+        <div class="col-12">
+            <h1 class="text-center mb-5">Tentative Schedule</h1>
+            <p class="text-center lead mb-5">Workshop Schedule for August 16th, 2025</p>
+        </div>
+    </div>
+
+    <div class="row">
         <div class="col-lg-8 mx-auto">
-            <h1 class="text-center mb-5">Workshop Schedule</h1>
-            
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h2 class="card-title">Workshop Details</h2>
-                    <div class="workshop-details">
-                        <p><i class="fas fa-map-marker-alt me-2"></i> Montreal, Canada</p>
-                        <p><i class="fas fa-calendar-alt me-2"></i> August 16th – 22nd, 2025</p>
-                        <p><i class="fas fa-clock me-2"></i> Full Day Workshop</p>
-                        <p><i class="fas fa-university me-2"></i> Venue details will be announced soon</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="timeline">
+            <div class="schedule-timeline">
                 <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>9:00 AM - 9:15 AM</h3>
-                        <h4>Opening Remarks</h4>
-                        <p>Welcome and introduction to the workshop</p>
+                    <div class="time">9:00 AM - 9:15 AM</div>
+                    <div class="content">
+                        <h4>Welcome and Opening Remarks</h4>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>9:15 AM - 10:15 AM</h3>
-                        <h4>Keynote Speech</h4>
-                        <p>"Causal Inference in Modern Recommendation Systems"</p>
+                    <div class="time">9:15 AM - 10:00 AM</div>
+                    <div class="content">
+                        <h4>Invited Keynote 1</h4>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-coffee"></i>
+                    <div class="time">10:00 AM - 10:45 AM</div>
+                    <div class="content">
+                        <h4>Contributed Paper Session 1</h4>
                     </div>
-                    <div class="timeline-content">
-                        <h3>10:15 AM - 10:45 AM</h3>
+                </div>
+
+                <div class="timeline-item break">
+                    <div class="time">10:45 AM - 11:00 AM</div>
+                    <div class="content">
                         <h4>Coffee Break</h4>
-                        <p>Networking and refreshments</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-file-alt"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>10:45 AM - 12:15 PM</h3>
-                        <h4>Paper Presentations</h4>
-                        <p>Selected paper presentations and discussions</p>
+                    <div class="time">11:00 AM - 12:00 PM</div>
+                    <div class="content">
+                        <h4>Contributed Paper Session 2</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>12:15 PM - 1:15 PM</h3>
+                <div class="timeline-item break">
+                    <div class="time">12:00 PM - 1:00 PM</div>
+                    <div class="content">
                         <h4>Lunch Break</h4>
-                        <p>Lunch and networking</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>1:15 PM - 2:15 PM</h3>
-                        <h4>Panel Discussion</h4>
-                        <p>"Challenges and Opportunities in Causal Learning for Recommendations"</p>
+                    <div class="time">1:00 PM - 1:45 PM</div>
+                    <div class="content">
+                        <h4>Invited Keynote 2</h4>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>2:15 PM - 3:15 PM</h3>
-                        <h4>Interactive Session</h4>
-                        <p>Hands-on workshop on implementing causal learning in recommendation systems</p>
+                    <div class="time">1:45 PM - 2:30 PM</div>
+                    <div class="content">
+                        <h4>Poster Session and Networking Break</h4>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>3:15 PM - 3:45 PM</h3>
-                        <h4>Open Discussion</h4>
-                        <p>Q&A and future directions</p>
+                    <div class="time">2:30 PM - 3:15 PM</div>
+                    <div class="content">
+                        <h4>Breakout Group Discussion</h4>
                     </div>
                 </div>
 
                 <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-flag-checkered"></i>
+                    <div class="time">3:15 PM - 4:00 PM</div>
+                    <div class="content">
+                        <h4>Contributed Paper Session 3</h4>
                     </div>
-                    <div class="timeline-content">
-                        <h3>3:45 PM - 4:00 PM</h3>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="time">4:00 PM - 4:30 PM</div>
+                    <div class="content">
                         <h4>Closing Remarks</h4>
-                        <p>Summary and next steps</p>
                     </div>
                 </div>
             </div>
@@ -125,102 +96,96 @@ title: Schedule
 </div>
 
 <style>
-.timeline {
+.schedule-timeline {
     position: relative;
     padding: 2rem 0;
 }
 
-.timeline::before {
+.schedule-timeline::before {
     content: '';
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
     height: 100%;
-    background: var(--gradient-primary);
+    background: var(--secondary-color);
 }
 
 .timeline-item {
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.timeline-badge {
+.timeline-item::before {
+    content: '';
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
+    background: var(--secondary-color);
     border-radius: 50%;
-    background: var(--gradient-primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 1.5rem;
     z-index: 1;
 }
 
-.timeline-content {
-    width: calc(50% - 50px);
-    padding: 1.5rem;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    position: relative;
-    transition: transform 0.3s ease;
+.timeline-item.break::before {
+    background: var(--accent-color);
 }
 
-.timeline-content:hover {
-    transform: translateY(-5px);
-}
-
-.timeline-item:nth-child(odd) .timeline-content {
-    margin-left: auto;
-}
-
-.timeline-content h3 {
-    color: var(--secondary-color);
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-}
-
-.timeline-content h4 {
+.time {
+    position: absolute;
+    left: 0;
+    width: 45%;
+    text-align: right;
+    padding-right: 2rem;
+    font-weight: 600;
     color: var(--primary-color);
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
+}
+
+.content {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    padding-left: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 1rem 1.5rem;
+}
+
+.content h4 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.break .content {
+    background: var(--light-bg);
 }
 
 @media (max-width: 768px) {
-    .timeline::before {
+    .schedule-timeline::before {
         left: 30px;
     }
-    
-    .timeline-badge {
+
+    .timeline-item::before {
         left: 30px;
     }
-    
-    .timeline-content {
-        width: calc(100% - 80px);
-        margin-left: 80px !important;
+
+    .time {
+        left: 60px;
+        width: auto;
     }
-}
 
-.workshop-details {
-    margin-top: 1rem;
-    padding: 1rem;
-    background: var(--light-gray);
-    border-radius: 10px;
-}
-
-.workshop-details p {
-    margin-bottom: 0.5rem;
-    color: var(--text-color);
-}
-
-.workshop-details i {
-    color: var(--secondary-color);
-    width: 20px;
+    .content {
+        left: 60px;
+        right: 0;
+        width: calc(100% - 60px);
+        padding-left: 1rem;
+    }
 }
 </style> 
