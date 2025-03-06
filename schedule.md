@@ -12,81 +12,81 @@ title: Schedule
     </div>
 
     <div class="row">
-        <div class="col-lg-8 mx-auto">
-            <div class="schedule-timeline">
-                <div class="timeline-item">
-                    <div class="time">9:00 AM - 9:15 AM</div>
-                    <div class="content">
+        <div class="col-lg-10 mx-auto">
+            <div class="schedule-container">
+                <div class="schedule-item">
+                    <div class="schedule-time">9:00 AM - 9:15 AM</div>
+                    <div class="schedule-content">
                         <h4>Welcome and Opening Remarks</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="time">9:15 AM - 10:00 AM</div>
-                    <div class="content">
+                <div class="schedule-item">
+                    <div class="schedule-time">9:15 AM - 10:00 AM</div>
+                    <div class="schedule-content">
                         <h4>Invited Keynote 1</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="time">10:00 AM - 10:45 AM</div>
-                    <div class="content">
+                <div class="schedule-item">
+                    <div class="schedule-time">10:00 AM - 10:45 AM</div>
+                    <div class="schedule-content">
                         <h4>Contributed Paper Session 1</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item break">
-                    <div class="time">10:45 AM - 11:00 AM</div>
-                    <div class="content">
+                <div class="schedule-item break">
+                    <div class="schedule-time">10:45 AM - 11:00 AM</div>
+                    <div class="schedule-content">
                         <h4>Coffee Break</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="time">11:00 AM - 12:00 PM</div>
-                    <div class="content">
+                <div class="schedule-item">
+                    <div class="schedule-time">11:00 AM - 12:00 PM</div>
+                    <div class="schedule-content">
                         <h4>Contributed Paper Session 2</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item break">
-                    <div class="time">12:00 PM - 1:00 PM</div>
-                    <div class="content">
+                <div class="schedule-item break">
+                    <div class="schedule-time">12:00 PM - 1:00 PM</div>
+                    <div class="schedule-content">
                         <h4>Lunch Break</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="time">1:00 PM - 1:45 PM</div>
-                    <div class="content">
+                <div class="schedule-item">
+                    <div class="schedule-time">1:00 PM - 1:45 PM</div>
+                    <div class="schedule-content">
                         <h4>Invited Keynote 2</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="time">1:45 PM - 2:30 PM</div>
-                    <div class="content">
+                <div class="schedule-item">
+                    <div class="schedule-time">1:45 PM - 2:30 PM</div>
+                    <div class="schedule-content">
                         <h4>Poster Session and Networking Break</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="time">2:30 PM - 3:15 PM</div>
-                    <div class="content">
+                <div class="schedule-item">
+                    <div class="schedule-time">2:30 PM - 3:15 PM</div>
+                    <div class="schedule-content">
                         <h4>Breakout Group Discussion</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="time">3:15 PM - 4:00 PM</div>
-                    <div class="content">
+                <div class="schedule-item">
+                    <div class="schedule-time">3:15 PM - 4:00 PM</div>
+                    <div class="schedule-content">
                         <h4>Contributed Paper Session 3</h4>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="time">4:00 PM - 4:30 PM</div>
-                    <div class="content">
+                <div class="schedule-item">
+                    <div class="schedule-time">4:00 PM - 4:30 PM</div>
+                    <div class="schedule-content">
                         <h4>Closing Remarks</h4>
                     </div>
                 </div>
@@ -96,107 +96,87 @@ title: Schedule
 </div>
 
 <style>
-.schedule-timeline {
-    position: relative;
+.schedule-container {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 2rem 0;
 }
 
-.schedule-timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 100%;
-    background: var(--secondary-color);
-}
-
-.timeline-item {
-    position: relative;
-    margin-bottom: 3rem;
-    width: 100%;
+.schedule-item {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 3rem;
+    position: relative;
+    padding-left: 2.5rem;
+    align-items: flex-start;
 }
 
-.timeline-item::before {
+.schedule-item::before {
     content: '';
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-    height: 20px;
+    left: 0;
+    top: 0.5rem;
+    width: 12px;
+    height: 12px;
     background: var(--secondary-color);
     border-radius: 50%;
-    z-index: 1;
 }
 
-.timeline-item.break::before {
+.schedule-item.break::before {
     background: var(--accent-color);
 }
 
-.time {
-    position: absolute;
-    left: 0;
-    width: 45%;
-    text-align: right;
-    padding-right: 2rem;
+.schedule-time {
+    flex: 0 0 250px;
     font-weight: 600;
     color: var(--primary-color);
     font-size: 1.1rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
 }
 
-.content {
-    position: absolute;
-    right: 0;
-    width: 45%;
-    padding-left: 2rem;
+.schedule-content {
+    flex: 1;
     background: white;
+    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    padding: 1.5rem;
     transition: transform 0.3s ease;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
 }
 
-.content:hover {
+.schedule-content:hover {
     transform: translateY(-5px);
 }
 
-.content h4 {
+.schedule-content h4 {
     margin: 0;
     color: var(--primary-color);
     font-size: 1.2rem;
 }
 
-.break .content {
+.break .schedule-content {
     background: var(--light-bg);
 }
 
 @media (max-width: 768px) {
-    .schedule-timeline::before {
-        left: 30px;
+    .schedule-item {
+        flex-direction: column;
+        padding-left: 1.5rem;
+        margin-bottom: 2rem;
     }
 
-    .timeline-item::before {
-        left: 30px;
-    }
-
-    .time {
-        left: 60px;
-        width: auto;
+    .schedule-time {
+        flex: none;
+        margin-bottom: 0.75rem;
         font-size: 1rem;
+        padding-right: 0;
     }
 
-    .content {
-        left: 60px;
-        right: 0;
-        width: calc(100% - 60px);
-        padding: 1.25rem;
-    }
-
-    .content h4 {
-        font-size: 1.1rem;
+    .schedule-content {
+        width: 100%;
+        min-height: 60px;
     }
 }
 </style> 

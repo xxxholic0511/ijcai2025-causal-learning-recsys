@@ -5,10 +5,10 @@ url: "https://xxxholic0511.github.io"
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sass-converter
 
 # Site settings
 author:
@@ -35,4 +35,13 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page" 
+      layout: "page"
+
+# SCSS settings
+sass:
+  style: compressed
+  sourcemap: never
+  include_paths:
+    - _sass
+  load_paths:
+    - _sass 

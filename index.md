@@ -82,7 +82,7 @@ title: Home
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
                 <div class="card-body">
-                    <h3 class="card-title">Causal RL</h3>
+                    <h3 class="card-title">Causal Reinforcement Learning</h3>
                     <ul class="list-unstyled">
                         <li>Personalized recommendations</li>
                         <li>Adaptive strategies</li>
