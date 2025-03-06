@@ -4,9 +4,15 @@ title: Home
 ---
 
 <div class="hero-section text-center py-5">
-    <h1 class="display-4">IJCAI 2025 Workshop</h1>
-    <h2 class="display-5">Causal Learning for Recommendation Systems</h2>
-    <p class="lead">August 2025 | Location TBD</p>
+    <div class="container">
+        <h1 class="display-4">IJCAI 2025 Workshop</h1>
+        <h2 class="display-5">Causal Learning for Recommendation Systems</h2>
+        <p class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            Montreal, Canada
+        </p>
+        <p class="lead">August 2025</p>
+    </div>
 </div>
 
 <div class="container mt-5">
@@ -33,9 +39,9 @@ title: Home
                 <div class="card-body">
                     <h3 class="card-title">Important Dates</h3>
                     <ul class="list-unstyled">
-                        <li><strong>Paper Submission:</strong> TBD</li>
-                        <li><strong>Notification:</strong> TBD</li>
-                        <li><strong>Camera Ready:</strong> TBD</li>
+                        <li><strong>Paper Submission:</strong> April 15, 2025</li>
+                        <li><strong>Notification:</strong> May 15, 2025</li>
+                        <li><strong>Camera Ready:</strong> June 1, 2025</li>
                         <li><strong>Workshop Date:</strong> August 2025</li>
                     </ul>
                 </div>
