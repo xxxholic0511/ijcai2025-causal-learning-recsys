@@ -100,14 +100,16 @@ title: Schedule
     max-width: 900px;
     margin: 0 auto;
     padding: 2rem 0;
+    position: relative;
 }
 
 .schedule-item {
     display: flex;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     position: relative;
     padding-left: 2.5rem;
     align-items: flex-start;
+    min-height: 100px;
 }
 
 .schedule-item::before {
@@ -132,6 +134,10 @@ title: Schedule
     font-size: 1.1rem;
     padding-right: 2rem;
     padding-top: 0.5rem;
+    position: sticky;
+    top: 1rem;
+    background: var(--light-bg);
+    z-index: 1;
 }
 
 .schedule-content {
@@ -164,7 +170,8 @@ title: Schedule
     .schedule-item {
         flex-direction: column;
         padding-left: 1.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
+        min-height: auto;
     }
 
     .schedule-time {
@@ -172,6 +179,9 @@ title: Schedule
         margin-bottom: 0.75rem;
         font-size: 1rem;
         padding-right: 0;
+        position: relative;
+        top: 0;
+        background: none;
     }
 
     .schedule-content {
