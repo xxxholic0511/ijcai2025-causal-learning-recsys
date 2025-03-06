@@ -1,0 +1,190 @@
+---
+layout: default
+title: Topics
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center mb-5">Workshop Topics</h1>
+            <p class="text-center lead mb-5">Explore the key areas of focus for our workshop</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Causal Inference for Recommender Systems -->
+        <div class="col-lg-6 mb-4">
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <div class="topic-content">
+                    <h3>Causal Inference for Recommender Systems</h3>
+                    <ul>
+                        <li>Integrating causal models to improve recommendation quality</li>
+                        <li>Modeling cause-effect relationships in user behavior and preferences</li>
+                        <li>Causal discovery techniques for recommendation system design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bias and Fairness in Recommendations -->
+        <div class="col-lg-6 mb-4">
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-balance-scale"></i>
+                </div>
+                <div class="topic-content">
+                    <h3>Bias and Fairness in Recommendations</h3>
+                    <ul>
+                        <li>Identifying and mitigating biases in recommender algorithms using causal frameworks</li>
+                        <li>Fairness-aware recommendation models based on causal inference</li>
+                        <li>Evaluating fairness in recommendation systems using counterfactuals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interpretability and Transparency -->
+        <div class="col-lg-6 mb-4">
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="topic-content">
+                    <h3>Interpretability and Transparency in Recommender Systems</h3>
+                    <ul>
+                        <li>Explaining recommendations through causal reasoning</li>
+                        <li>Causal explanations of user-item interactions</li>
+                        <li>Methods for generating interpretable recommendation models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Counterfactual Learning and Evaluation -->
+        <div class="col-lg-6 mb-4">
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-history"></i>
+                </div>
+                <div class="topic-content">
+                    <h3>Counterfactual Learning and Evaluation</h3>
+                    <ul>
+                        <li>Applying counterfactual analysis to evaluate recommendation effectiveness</li>
+                        <li>Generating personalized counterfactuals for better recommendations</li>
+                        <li>Using counterfactuals to measure the impact of recommendation interventions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Causal Reinforcement Learning -->
+        <div class="col-lg-6 mb-4">
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="topic-content">
+                    <h3>Causal Reinforcement Learning for Recommendations</h3>
+                    <ul>
+                        <li>Combining causal inference with reinforcement learning for personalized recommendations</li>
+                        <li>Adaptive recommendation strategies based on causal reasoning</li>
+                        <li>Dynamic recommendation systems using causal reinforcement learning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Practical Applications -->
+        <div class="col-lg-6 mb-4">
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-industry"></i>
+                </div>
+                <div class="topic-content">
+                    <h3>Practical Applications and Case Studies</h3>
+                    <ul>
+                        <li>Real-world applications of causal inference in recommender systems</li>
+                        <li>Case studies of deploying causal models in large-scale recommendation systems</li>
+                        <li>Lessons learned from industry applications of causal-based recommendation models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ethical Implications -->
+        <div class="col-lg-6 mb-4">
+            <div class="topic-card">
+                <div class="topic-icon">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <div class="topic-content">
+                    <h3>Ethical Implications of Causal Recommendation Models</h3>
+                    <ul>
+                        <li>Ethical concerns and trade-offs in causal recommendation algorithms</li>
+                        <li>Addressing societal impacts and biases in causal recommendation models</li>
+                        <li>Incorporating ethical considerations into causal model development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.topic-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+}
+
+.topic-icon {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.topic-content h3 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.topic-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topic-content li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #666;
+}
+
+.topic-content li::before {
+    content: '•';
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .topic-card {
+        margin-bottom: 1.5rem;
+    }
+}
+</style> 
