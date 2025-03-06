@@ -1,0 +1,38 @@
+title: IJCAI 2025 Workshop - Causal Learning for Recommendation Systems
+description: Workshop on Causal Learning for Recommendation Systems at IJCAI 2025
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site settings
+author:
+  name: Workshop Organizers
+  email: workshop@example.com
+
+# Collections
+collections:
+  organizers:
+    output: true
+  speakers:
+    output: true
+  schedule:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page" 
