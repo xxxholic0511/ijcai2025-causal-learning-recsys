@@ -113,7 +113,7 @@ title: Schedule
 
 .timeline-item {
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -144,6 +144,7 @@ title: Schedule
     padding-right: 2rem;
     font-weight: 600;
     color: var(--primary-color);
+    font-size: 1.1rem;
 }
 
 .content {
@@ -154,13 +155,18 @@ title: Schedule
     background: white;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    padding: 1rem 1.5rem;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.content:hover {
+    transform: translateY(-5px);
 }
 
 .content h4 {
     margin: 0;
     color: var(--primary-color);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .break .content {
@@ -179,13 +185,18 @@ title: Schedule
     .time {
         left: 60px;
         width: auto;
+        font-size: 1rem;
     }
 
     .content {
         left: 60px;
         right: 0;
         width: calc(100% - 60px);
-        padding-left: 1rem;
+        padding: 1.25rem;
+    }
+
+    .content h4 {
+        font-size: 1.1rem;
     }
 }
 </style> 

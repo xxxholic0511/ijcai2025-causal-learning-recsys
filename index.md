@@ -3,75 +3,167 @@ layout: default
 title: Home
 ---
 
-<div class="hero-section text-center py-5">
+<div class="hero-section">
     <div class="container">
-        <h1 class="display-4">IJCAI 2025 Workshop</h1>
-        <h2 class="display-5">Causal Learning for Recommendation Systems</h2>
-        <p class="location">
-            <i class="fas fa-map-marker-alt"></i>
-            Montreal, Canada
-        </p>
-        <p class="lead">August 16th – 22nd, 2025</p>
-    </div>
-</div>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8">
-            <h2>About the Workshop</h2>
-            <p>
-                The IJCAI 2025 Workshop on Causal Learning for Recommendation Systems brings together researchers and practitioners to explore the intersection of causal inference and recommendation systems. This workshop aims to address the challenges and opportunities in incorporating causal reasoning into recommendation algorithms, with a focus on improving recommendation fairness, robustness, and interpretability.
-            </p>
-            
-            <h2 class="mt-4">Key Topics</h2>
-            <ul>
-                <li>Causal inference in recommendation systems</li>
-                <li>Counterfactual learning for recommendations</li>
-                <li>Fairness and bias in recommendation systems</li>
-                <li>Interpretable recommendation models</li>
-                <li>Robust recommendation systems</li>
-                <li>Real-world applications and case studies</li>
-            </ul>
-        </div>
-        
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Important Dates</h3>
-                    <ul class="list-unstyled">
-                        <li><strong>Paper Submission:</strong> May 9, 2025</li>
-                        <li><strong>Notification:</strong> June 6, 2025</li>
-                        <li><strong>Camera Ready:</strong> June 20, 2025</li>
-                        <li><strong>Workshop Date:</strong> August 16th – 22nd, 2025</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="card mt-4">
-                <div class="card-body">
-                    <h3 class="card-title">Quick Links</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="{{ site.baseurl }}/submission">Submission Guidelines</a></li>
-                        <li><a href="{{ site.baseurl }}/schedule">Workshop Schedule</a></li>
-                        <li><a href="{{ site.baseurl }}/speakers">Invited Speakers</a></li>
-                        <li><a href="{{ site.baseurl }}/organizers">Organizers</a></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="hero-content">
+            <h1>Causal Learning for Recommendation Systems</h1>
+            <p class="lead">A Workshop at IJCAI 2025</p>
+            <p>Montreal, Canada | August 16th, 2025</p>
+            <a href="{{ site.baseurl }}/submission" class="btn btn-primary">Submit Your Paper</a>
         </div>
     </div>
 </div>
 
 <div class="container mt-5">
     <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">About the Workshop</h2>
+                    <p class="lead">Exploring the intersection of causal inference and recommendation systems to build more robust, fair, and interpretable recommendation models.</p>
+                    <p>This workshop brings together researchers and practitioners to discuss the latest advances in causal learning for recommendation systems, focusing on both theoretical foundations and practical applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5">
         <div class="col-12">
-            <h2 class="text-center">Call for Papers</h2>
-            <p class="text-center">
-                We invite submissions of original research papers that address theoretical and practical aspects of causal learning in recommendation systems. Both full papers and position papers are welcome.
-            </p>
-            <div class="text-center mt-4">
-                <a href="{{ site.baseurl }}/submission" class="btn btn-primary">Submission Guidelines</a>
+            <h2 class="text-center mb-4">Key Topics</h2>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Causal Inference</h3>
+                    <ul class="list-unstyled">
+                        <li>Integrating causal models</li>
+                        <li>Cause-effect relationships</li>
+                        <li>Causal discovery techniques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Bias and Fairness</h3>
+                    <ul class="list-unstyled">
+                        <li>Identifying biases</li>
+                        <li>Fairness-aware models</li>
+                        <li>Counterfactual evaluation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Interpretability</h3>
+                    <ul class="list-unstyled">
+                        <li>Causal explanations</li>
+                        <li>User-item interactions</li>
+                        <li>Interpretable models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Counterfactual Learning</h3>
+                    <ul class="list-unstyled">
+                        <li>Effectiveness evaluation</li>
+                        <li>Personalized counterfactuals</li>
+                        <li>Impact measurement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Causal RL</h3>
+                    <ul class="list-unstyled">
+                        <li>Personalized recommendations</li>
+                        <li>Adaptive strategies</li>
+                        <li>Dynamic systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Applications</h3>
+                    <ul class="list-unstyled">
+                        <li>Real-world applications</li>
+                        <li>Case studies</li>
+                        <li>Industry lessons</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div> 
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Workshop Organizers</h2>
+                    <p class="lead">Organizers will be announced soon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Important Dates</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-calendar-alt me-2"></i> Paper Submission: TBA</li>
+                        <li><i class="fas fa-bell me-2"></i> Notification: TBA</li>
+                        <li><i class="fas fa-file-alt me-2"></i> Camera Ready: TBA</li>
+                        <li><i class="fas fa-users me-2"></i> Workshop Date: August 16th, 2025</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-body ul li {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.card-body ul li:before {
+    content: '•';
+    color: var(--secondary-color);
+    margin-right: 0.5rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: var(--text-color);
+}
+</style> 
